@@ -27,4 +27,28 @@ $b=2;
 
 echo   ++$a*($a++ + --$b);
 
+echo "<br/>";
+
+$a= '0';
+
+echo (bool)$a; 
+
+echo "<br/>";
+echo (int)'1234';
+
+echo "<br/>";
+
+echo (int)'df12addre';
+
+// comparison 
+
+$a=4;
+$b=0; 
+
+if ($a=$b){
+
+    echo "<br/>";
+	echo "Hello"; 
+}
+
 ?>
