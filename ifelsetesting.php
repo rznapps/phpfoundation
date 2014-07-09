@@ -42,4 +42,14 @@ elseif ($x>=59){
 elseif ($x>=49){
  echo "you have got B+";
 }
+
+
+$sum=0;
+for ($start=10; $start<=100; $start++){
+  $sum = $start + $sum; 
+  }
+echo "<br/>.........";
+
+echo ($sum);
+
 ?>
