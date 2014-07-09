@@ -3,7 +3,7 @@
 
 
 
-$marks=76;
+$marks=85;
 
 if ($marks<="100"&& $marks>=80) {
   echo "you have got A+";
@@ -24,5 +24,22 @@ elseif ($marks<"40"&& $marks>=30) {
 }
 else {
 	echo "you have failed";
+}
+
+echo "<br/>.........";
+
+$x=52; 
+
+
+if ($x>=79) {
+  echo "you have got A+";
+
+}
+elseif ($x>=59){
+ echo "you have got A";
+}
+
+elseif ($x>=49){
+ echo "you have got B+";
 }
 ?>
