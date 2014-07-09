@@ -19,4 +19,14 @@ $fruits = array ('a'=>'apple','b'=> 'banana');
 print_r($fruits);  
 echo "<br/>.........";
 echo $fruits['b'];
+
+$arr2d=array($cars,$fruits);
+echo "<pre>";
+print_r($arr2d);
+echo"</pre>"; 
+
+echo "<br/>.........";
+
+print_r($arr2d[0][1]);
+
 ?>
