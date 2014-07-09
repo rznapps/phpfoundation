@@ -3,10 +3,13 @@
 
 
 
-$marks=85;
+
+function findgrade($marks) {
+
+//$marks=85;
 
 if ($marks<="100"&& $marks>=80) {
-  echo "you have got A+";
+  return "you have got A+";
 
 } elseif ($marks<="80" && $marks>=70) {
   echo " you have got A";
@@ -26,6 +29,12 @@ else {
 	echo "you have failed";
 }
 
+  
+}
+
+echo findgrade(67); 
+
+/*
 echo "<br/>.........";
 
 $x=52; 
@@ -51,5 +60,9 @@ for ($start=10; $start<=100; $start++){
 echo "<br/>.........";
 
 echo ($sum);
+
+*/
+
+
 
 ?>
