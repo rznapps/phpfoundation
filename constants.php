@@ -29,4 +29,14 @@ echo "<br/>.........";
 
 print_r($arr2d[0][1]);
 
+
+$marks=55;
+
+if ($marks<"100" ) {
+  echo "Have a good morning!";
+} elseif ($t<"20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+
 ?>
