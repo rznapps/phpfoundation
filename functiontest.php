@@ -20,6 +20,8 @@ foreach ($fields as key=>$value) {
     }
 
     }
+  
+
     
 showinfo("comedy");
 
