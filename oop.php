@@ -2,12 +2,14 @@
 class User   
 // declaring a class
 {
-};
+var $name="FTFL";
+var $email="";
+}
  
 // instantiation of a User
- $user1= new User(); 
- var_dump($user1); 
-
+ $user= new User(); 
+ var_dump($user); 
+echo $user->name;
 
 ?>
 
