@@ -25,8 +25,9 @@ if (isset($_GET['Submit']))
 {
 $an_employee = new office_Employee();
 $an_employee->id=$_GET['Id'];
-$an_employee->Name=$_GET['Name'];
-$an_employee->Salary=$_GET['salary'];
+$an_employee->name=$_GET['Name'];
+$an_employee->salary=$_GET['salary'];
+$salary_with_bonus = $an_employee->get_salary_with_bonus();  
 
 /*$id= $_GET[I'd'];
 $Name= $_GET['Name'];
@@ -34,8 +35,10 @@ $Salary= $_GET['salary'];*/
 
 
 echo $an_employee->id."<br/>"; 
-echo $an_employee->Name."<br/>";
-echo $an_employee->Salary."<br/>" ; 
+echo $an_employee->name."<br/>";
+echo $an_employee->salary."<br/>" ; 
+echo $salary_with_bonus."<br/>" ; 
+
 }
 
 
