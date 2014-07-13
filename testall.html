@@ -1,0 +1,34 @@
+<html>
+
+<body>
+
+<form action="index.php",method="form">
+Name: <input type="text" name="Name"><br>
+ID: <input type="text" name="Id"><br>
+Salary: <input type="text" name="salary"><br>
+<input type="Submit" name="Submit"><br>
+
+
+</form> 
+
+
+
+
+</body>
+
+
+
+
+<?php
+if (isset($_POST['Id']))
+{
+$id= $_POST['Id'];
+$Name= $_POST['Name'];
+$Salary= $_POST['salary'];
+}
+echo $id. ' '. $Name.''.$Salary.;
+
+
+?>
+
+</html>
