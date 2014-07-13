@@ -23,20 +23,19 @@ Salary: <input type="text" name='salary'><br>
 require 'classtest.php'; 
 if (isset($_GET['Submit']))
 {
-$employeeobject = new Employee();
-$employeeobject->id=$_GET['Id'];
-$employeeobject->Name=$_GET['Name'];
-
-$employeeobject->Salary=$_GET['salary'];
+$an_employee = new office_Employee();
+$an_employee->id=$_GET['Id'];
+$an_employee->Name=$_GET['Name'];
+$an_employee->Salary=$_GET['salary'];
 
 /*$id= $_GET[I'd'];
 $Name= $_GET['Name'];
 $Salary= $_GET['salary'];*/
 
 
-echo $employeeobject->id."<br/>"; 
-echo $employeeobject->Name."<br/>";
-echo $employeeobject->Salary."<br/>" ; 
+echo $an_employee->id."<br/>"; 
+echo $an_employee->Name."<br/>";
+echo $an_employee->Salary."<br/>" ; 
 }
 
 
