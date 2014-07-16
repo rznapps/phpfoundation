@@ -13,6 +13,10 @@ and open the template in the editor.
         <?php
         $account=new account('7678hj', 'sdfs');
         $account->deposit(2000);
+        
+        
+        $saving_account=new savingAccount('test123','12th august');
+        
         ?>
     </body>
 </html>
